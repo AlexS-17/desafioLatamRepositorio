@@ -1,0 +1,69 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #02022e;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del layout a columna en pantallas pequeñas */
+  align-items: center;
+  text-align: center; /* Centra el contenido */
+}
+
+.image-container {
+  margin-bottom: 20px; /* Añade espacio entre la imagen y el texto en pantallas pequeñas */
+}
+
+.banner-image {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+}
+
+.text-container {
+  margin-top: 20px; /* Añade espacio entre la imagen y el texto en pantallas pequeñas */
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+/* Media query para pantallas de escritorio */
+@media (min-width: 768px) {
+  .banner {
+      background-color: #000;
+      color: #fff;
+  }
+
+  .banner-image {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+  }
+
+  .content {
+      flex-direction: row; /* Cambia la dirección del layout a fila en pantallas más grandes */
+      justify-content: center;
+  }
+
+  .image-container {
+      margin-bottom: 0; /* Elimina el espacio entre la imagen y el texto en pantallas más grandes */
+      margin-right: 20px;
+  }
+
+  .text-container {
+      margin-top: 0; /* Elimina el espacio entre la imagen y el texto en pantallas más grandes */
+  }
+}
+
+
