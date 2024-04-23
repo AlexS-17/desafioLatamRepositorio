@@ -1,0 +1,12 @@
+.btn-outline-yellow {
+    border-color: #4361ee;
+}
+
+.btn-outline-yellow:hover {
+  border-color: #4361ee;
+}
+
+.btn-contacto {
+  background-color: #4361ee;
+  color: #373a3c;
+}

@@ -6,6 +6,7 @@
     gap: 16px;
     transition: 0.3s;
     padding: 50px;
+    background-color: black;
   }
   
   .accordion:hover {

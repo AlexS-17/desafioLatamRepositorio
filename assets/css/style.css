@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(#0d0d0d, #212121);
+  background:#000;
   font-family: poppins, sans-serif;
   color: #d6dfed;
 }
@@ -26,3 +26,4 @@ body {
 main {
   flex: 1; /* Que la sección principal ocupe todo el espacio restante */
 }
+

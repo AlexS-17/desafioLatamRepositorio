@@ -1,0 +1,24 @@
+.bg-yellow {
+    background-color: #4361ee;
+  
+  }
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+    .card {
+    height: 100%; /* Ajusta la altura de todas las cards */
+  }
+
+  .card-img-top {
+    object-fit: cover; /* La imagen se recorta y se ajusta para adaptarse a la card */
+    height: 200px; /* Altura específica para la imagen en la card */
+  }
+
+  .card-body {
+    color: black; /* Cambia el color del texto a negro */
+  }

@@ -3,8 +3,9 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #02022e;
+  background-color: #4361ee;
   color: #fff;
+  margin-top: 70px; /* Agrega espacio entre el navbar y el banner */
 }
 
 .content {
@@ -16,6 +17,7 @@
 
 .image-container {
   margin-bottom: 20px; /* Añade espacio entre la imagen y el texto en pantallas pequeñas */
+  margin-top: 20px; /* Agrega espacio entre la imagen y el navbar */
 }
 
 .banner-image {
@@ -34,20 +36,20 @@ h1 {
 }
 
 p {
-  margin-bottom: 0;
+  margin: 20px;
   font-size: 16px;
 }
 
 /* Media query para pantallas de escritorio */
 @media (min-width: 768px) {
   .banner {
-      background-color: #000;
+      background-color: #4361ee;
       color: #fff;
   }
 
   .banner-image {
-    width: 40vh;
-    height: 40vh;
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
   }
 
@@ -65,5 +67,6 @@ p {
       margin-top: 0; /* Elimina el espacio entre la imagen y el texto en pantallas más grandes */
   }
 }
+
 
 
